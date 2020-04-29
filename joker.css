@@ -1,0 +1,448 @@
+body
+{
+  margin:0;
+  padding:0;
+
+}
+.container
+{
+  width:1170px;
+  margin: auto;
+}
+.clear
+{
+  clear: both;
+  padding-top:150px;
+  padding-bottom:10px;
+}
+/* header*/
+.header .slider
+{
+  background-image:url('cover2.jfif');
+  background-size: cover;
+  background-position:center;
+  height:600px;
+}
+.header .paragraph
+{
+  text-align:center;
+  padding-top:300px;
+  padding-left:680px;
+
+}
+.header .slider .paragraph h1
+{
+  font:italic 20px/1.7  Arial Tahoma;
+  font-size:70px;
+  margin:0px;
+  letter-spacing:40px;
+  font-weight:700;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  width:600px;
+}
+.header .slider .paragraph button
+{
+  text-align: center;
+  background:none;
+  padding:20px 60px;
+  margin-top:30px;
+  font-size:20px;
+  border:2px solid gold;
+  font-weight:500;
+  color:gold;
+  font-weight:500;
+}
+
+.header .navbar
+{
+ background-color:#232F2F;
+ color:white;
+ overflow: hidden;
+}
+.header .navbar h2
+{
+  float:left;
+  text-transform:uppercase;
+}
+.header .navbar h2 span
+{
+  color:GOLD;
+}
+.header .navbar ul
+{
+  list-style:none;
+  padding-left:0;
+  float: right;
+  overflow: hidden;
+
+}
+.header .navbar ul li
+{
+  float:left;
+  padding: 10px;
+  font:italic 20px/1.7  Arial Tahoma;
+}
+.header .navbar ul li a
+{
+  color:white;
+  text-decoration:none;
+}
+.header .navbar ul li a:hover
+{
+  color:gold;
+}
+/* End header*/
+/*features*/
+.features
+{
+   overflow: hidden;
+   padding-top:10px;
+   padding-bottom:10px;
+
+}
+.features .feat
+{
+  float:left;
+  width:33.333%;
+  height: 180px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.features .feat h2{text-transform: uppercase; color:#444;}
+.features .feat p
+{
+  line-height:1.4;
+  color:#999;
+  font:italic 17px  Arial Tahoma;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+/* End Features*/
+/*about us*/
+.about
+{
+  overflow: hidden;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.about .img > img
+{
+ float:left;
+ width: 30%;
+ overflow: hidden;
+}
+.about .image img{width:100%}
+.about .info
+{
+  float:left;
+  width:40%;
+}
+.about .info  h2
+{
+   margin:40px 0 20px 40px;
+}
+.about .info > p
+{
+  margin:40px 0 20px 40px;
+  line-height:1.7;
+  color:#999;
+  font:italic 20px/1.7  Arial Tahoma;
+}
+.about .info .hobbies
+{
+  overflow:hidden;
+  margin:30px;
+  margin:30px 0 0 20px;
+
+}
+.about .info  h2 , .about .info .hobbies h3
+{
+  color:#444;
+}
+.about .info .hobbies p
+{
+   color:#999;
+   font:italic 15px/1.4  Arial Tahoma;
+}
+.about .info .hobbies > div
+{
+  float:right;
+  width:50%;
+  min-height:100px;
+}
+/*End about us*/
+/*Offers*/
+.offers
+{
+  overflow:hidden;
+  padding-top:30px;
+  padding-bottom:30px;
+  margin:15px 0;
+}
+.offers .text,
+.offers .progress
+{
+  float:left;
+  width:50%
+}
+.offers .text h2
+{
+  margin:25px 0 20px 40px;
+  color:#444;
+  text-transform:capitalize;
+}
+.offers .text p
+{
+  margin:0 0 10px 40px;
+  color:#999;
+  line-height:1.7;
+  font:italic 20px/1.7  Arial Tahoma;
+}
+.offers .text button
+{
+  margin:30px 0px 10px 40px;
+
+}
+.offers .progress .tech
+{
+  margin-left:50px;
+}
+.offers .progress .tech h3
+{
+  color:#444;
+  margin-bottom:10px;
+}
+.offers .progress .tech div
+{
+  background-color:#f2f2f2;
+  height: 25px;
+  border-radius:20px;
+}
+.offers .progress .tech div span
+{
+  background-color: gold;
+  height: 25px;
+  line-height: 25px;
+  display:block;
+  border-radius:20px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 550;
+  color:#11A69C;
+}
+/*End Offers*/
+/*collection*/
+.collection
+{
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#f2f2f2;
+
+}
+.collection h2
+{
+  text-transform: uppercase;
+}
+.collection button
+{
+  margin:20px 0 30px 0;
+  width:20%;
+}
+
+/*End collection*/
+/*Brands*/
+.brands
+{
+  overflow:hidden;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.section
+{
+  overflow:hidden;
+  padding-top:15px;
+  padding-bottom:15px;
+  margin:30px 0 10px 0;
+}
+.section .video  video , .section .text p
+{
+  float:left;
+  width:40%;
+}
+.section .video video
+{
+  width:50%;
+  height:70%;
+  margin:0px 0 20px 0px;
+}
+.section .text p
+{
+  margin:40px 0 10px 40px;
+  color:#1F1F1F;
+  font:italic 20px/1.4  Arial Tahoma;
+  /*line-height:1.7;*/
+}
+.brands .brand1 , .brands  .brand2
+{
+  float:left;
+  width:50%;
+
+}
+.brand4
+{
+  overflow:hidden;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/*.brand4 ,.brand6
+{
+  float:right;
+  width:50%;
+
+}
+/*End Brands*/
+/*Testmonilas*/
+.Testmonilas
+{
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:280px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background:#f2f2f2;
+  background-image:url('uu.jpg');
+  background-size: cover;
+  bottom:190px;
+}
+.Testmonilas h3
+{
+  font-size:20px;
+  display:inline;
+  font:italic 30px/1.7  Arial Tahoma;
+}
+
+
+/* End Testmonilas*/
+/*Store*/
+.store
+{
+  padding-top:30px;
+  padding-bottom:30px;
+  overflow:hidden;
+}
+.store .text
+{
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 80px;
+  font:italic 20px/1.7  Arial Tahoma;
+}
+
+.store .items h2
+{
+  text-transform: uppercase;
+
+}
+.store .items > div
+{
+  float:left;
+  width:33.3333333%;
+  margin-bottom:30px;
+}
+.store .items button
+{
+  width:30%;
+  height:50px;
+}
+.store .items h3
+{
+  color:green;
+  font-weight:700;
+}
+/*End Store*/
+/*Contact Us*/
+.contact
+{
+  color:#FFFFFF;
+  background-color:#1F1F1F;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact .data , .contact .form
+{
+  padding-top:20px;
+  padding-bottom:20px;
+  width:50%;
+  float:left;
+}
+.contact .data h2
+{
+  margin-top:0px;
+}
+.contact .data p
+{
+  font:italic 16px/1.7  Arial Tahoma;
+  color:#999;
+}
+.contact .data strong
+{
+  color:white;
+}
+.contact .form label
+{
+  padding-bottom:10px;
+  margin-bottom: 15px;
+  font:italic 16px/1.7  Arial Tahoma;
+}
+.contact .form input
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:70%;
+  height:30px;
+  border:4px solid black;
+  border-radius:10px;
+}
+.contact .form textarea
+{
+  margin-top: 20px;
+  width:70%;
+  height:150px;
+  border:4px solid black;
+  border-radius:10px;
+}
+.contact .form .submit
+{
+  width:20%;
+  height:40px;
+  font:italic 16px/1.7  Arial Tahoma;
+}
+/*End Contact Us*/
+/*Footer*/
+.footer
+{
+  padding-top:20px;
+  padding-bottom:20px;
+  overflow: hidden;
+  background-color: #232F2F;
+  text-align:center;
+  text-transform: uppercase;
+  color:white;
+}
+/*End Footer*/
+/* My Frameworks*/
+.mybutton
+{
+  background:none;
+  padding:10px 20px;
+  width:30%;
+  border:2px solid gold;
+  font-size:20px;
+  font-weight:500;
+  color:gold;
+}
+/*End My Frameworks*/
